@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .profile {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .profile:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .profile .info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .profile .info h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .profile .info p {
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .profile-card {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; margin-top: 20px;">Student Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <!-- Student 1 -->
+        <div class="profile" onclick="location.href='sumu.html'">
+
+            <img src="image/sumu.jpg" alt="Sumukha M D">
+            <div class="info">
+                <h3>Sumukha M D</h3>
+                <p>A passionate learner with interests in web development and design.</p>
+            </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="profile" onclick="location.href='srini.html'">
+            <img src="image/srini.jpg" alt="Student 2">
+            <div class="info">
+                <h3>Srinivas J R</h3>
+                <p>Specializing in machine learning and artificial intelligence.</p>
+            </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="profile" onclick="location.href='manu.html'">
+            <img src="image/manu.jpg" alt="Student 3">
+            <div class="info">
+                <h3>Manu kumar N</h3>
+                <p>Enthusiastic about cybersecurity and ethical hacking.</p>
+            </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="profile" onclick="location.href='suhas.html'">
+            <img src="image/suhas.jpg" alt="Student 4">
+            <div class="info">
+                <h3>Suhas G N</h3>
+                <p>Expert in graphic design and multimedia projects.</p>
+            </div>
+        </div>
+
+        <!-- Student 5 -->
+        <div class="profile" onclick="location.href='teju.html'">
+            <img src="image/teju.jpg" alt="Student 5">
+            <div class="info">
+                <h3>Tejas gowda K C</h3>
+                <p>Focusing on backend development and database management.</p>
+            </div>
+        </div>
+
+        <!-- Student 6 -->
+        <div class="profile" onclick="location.href='hari.html'">
+            <img src="image/hari.jpg" alt="Student 6">
+            <div class="info">
+                <h3>Hari prasad</h3>
+                <p>Interested in mobile app development and cross-platform solutions.</p>
+            </div>
+        </div>
+    </div>
+   <script> src="script.js"</script>
+</body>
+</html>
